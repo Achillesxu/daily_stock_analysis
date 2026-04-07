@@ -10,7 +10,7 @@ import json
 
 
 # 使用示例
-WEBHOOK = "https://oapi.dingtalk.com/robot/send?access_token=666dcbbac401122d54db1ca909d062082c4cac079ca5b6fb46e99311c635cc5d"
+WEBHOOK = "https://oapi.dingtalk.com/robot/send?access_token=xxxx"
 
 def send_dingtalk_text(webhook_url: str, content: str, at_mobiles: list = None, at_all: bool = False):
     """
